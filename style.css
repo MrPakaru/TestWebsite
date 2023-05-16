@@ -1,15 +1,102 @@
+* {
+    padding: 0;
+    margin: 10px; 
+    box-sizing: border-box; 
+}
+
+
 body {
     background-color:rgb(80, 80, 154);
     color: white;
     text-align:center;
+    margin:300px;  
+    
+}
+
+h1{
+    
+   
+    color:antiquewhite;
+    padding: 0px;
+    font-size:60px;  
+    width:1270px;
+    height: 80px;
+    text-align: center;
+    margin-top:-200px;
+    
 }
 
 img {
     height: auto;
     width: 600px;
     text-align:center;
+    padding:0px;
 }
 
-div .background {
-    background-color:rgb(31, 31, 111);
+.background {
+    background-color:rgb(31, 31, 111);  
+    padding: 20px;
+    margin: 40px;   
+}
+.picturerow{
+    display:flex;
+    height:200px;
+    width:auto;
+}
+
+.warning {
+    color:red;
+    display:inline-block;
+    
+    
+    
+}
+
+h3{
+    color:rgb(68, 145, 216);
+    margin:50px;
+}
+
+ul{
+    display:flex;
+}
+
+.test{
+
+    display:flex;
+    background-color:azure;
+    color:black;
+    margin:0 auto;
+    padding:20px 20px;
+    font-size:18px;
+    border:4px solid rgb(31, 11, 113);
+}
+
+.list{
+    
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding:0 130px;
+}
+
+.test p{
+    flex:2;
+    background-color:rgb(216, 87, 87);
+    padding:20px;
+    margin:0 50px;
+}
+
+.infos{
+    display:flex;
+}
+.block{
+
+    margin:0 30px;
+}
+
+button{
+    font-size:16px;
+    background-color:bisque;
+    padding:10px;
 }
